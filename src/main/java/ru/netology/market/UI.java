@@ -143,7 +143,6 @@ public class UI {
     }
 
     private void removeProductFromCart() {
-        //int id = getUserInput();
         cart.removeProductByID(input);
     }
 }
